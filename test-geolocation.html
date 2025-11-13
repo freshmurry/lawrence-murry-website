@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geolocation Test</title>
+    <meta name="description" content="Cloudflare geolocation and request headers test page — useful for debugging geolocation headers and visitor info.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J33KDZH512"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-J33KDZH512');
+        gtag('config', 'GT-PZZ2Q8P');
+    </script>
 </head>
 <body class="bg-gray-50 p-8">
     <div class="max-w-4xl mx-auto">
@@ -167,5 +177,8 @@
         // Auto-test on page load
         testHeaders();
     </script>
+        <footer style="margin-top:2rem;font-size:0.95rem;">
+            <p><a href="privacy.html">Privacy</a></p>
+        </footer>
 </body>
 </html> 

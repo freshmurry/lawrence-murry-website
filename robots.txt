@@ -40,10 +40,3 @@ Sitemap: https://lawrencemurry.com/sitemap.xml
 
 # Crawl delay (optional)
 Crawl-delay: 1
-
-# Cloudflare Pages specific
-User-agent: *
-Allow: /
-
-# Ensure sitemap is accessible
-Sitemap: https://lawrencemurry.com/sitemap.xml 
